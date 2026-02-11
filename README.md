@@ -13,6 +13,7 @@ To use the Data Encryption Standard (DES) algorithm for a practical application,
 4. DES applies initial and final permutations along with 16 rounds of substitution and permutation transformations to produce ciphertext.
 
 ## Program:
+```
 #include <stdio.h> 
 #include <string.h> 
  
@@ -22,7 +23,6 @@ void xorCrypt(char *in, char *key, char *out, int len) {
     } 
     out[len] = '\0'; 
 } 
- 
 int main() { 
     char msg[100], key[100], enc[100], dec[100]; 
  
@@ -48,13 +48,12 @@ int main() {
  
     return 0; 
 }
+```
 
 
 
 ## Output:
 <img width="946" height="1053" alt="image" src="https://github.com/user-attachments/assets/ee5e5111-025d-4bab-a60a-5b7f7b348f05" />
-# Result:
-The program is executed successfully
 
 ## Result:
   The program is executed successfully
